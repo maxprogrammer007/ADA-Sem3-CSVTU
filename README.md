@@ -24,7 +24,7 @@ This repository is aimed at:
 - **Deep Understanding**: Reinforcing your understanding of core algorithmic concepts.
 - **Code Reusability**: Providing ready-to-use algorithm templates in multiple languages.
 
-## 🗂️ Algorithms Covered
+## 🗂️ Algorithms To Be Covered
 
 
 
