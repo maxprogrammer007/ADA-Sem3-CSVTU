@@ -51,3 +51,20 @@ int main() {
     cout << "Maximum value in Knapsack = " << fractionalKnapsack(W, items) << endl;
     return 0;
 }
+
+
+/*
+Explanation :-
+    Item Struct: Represents each item, with fields for value and weight.
+
+    compare Function: A custom comparison function to sort items by their value-to-weight ratio in descending order.
+    
+    fractionalKnapsack Function:
+        Sorts the items by value-to-weight ratio.
+        Adds items to the knapsack as long as they fit entirely within the weight capacity.
+        If an item doesn’t completely fit, it adds a fractional part of the item proportional to the remaining weight capacity.
+
+Main Function: Initializes the knapsack's weight limit and items, calls the fractionalKnapsack function, and outputs the result.
+
+
+*/
