@@ -156,3 +156,23 @@ int main() {
     HuffmanCodes(arr, freq, size);
     return 0;
 }
+
+
+/*
+Explanation:
+
+MinHeapNode and MinHeap structures are used to create the nodes of the Huffman Tree and the min heap, respectively.
+
+createNode creates a new node with character data and frequency.
+
+createAndBuildMinHeap creates a min heap and initializes it with characters and frequencies.
+
+buildHuffmanTree constructs the Huffman Tree by repeatedly combining the two lowest-frequency nodes until only one node remains, which becomes the root of the tree.
+printCodes traverses the Huffman Tree and prints the codes for each character.
+
+HuffmanCodes is the main function that builds the Huffman Tree and prints the codes.
+
+Output:
+When run, this program will output the Huffman codes for the characters provided in arr based on the frequencies in freq.
+
+*/
