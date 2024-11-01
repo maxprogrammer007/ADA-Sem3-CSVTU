@@ -91,7 +91,7 @@ Contributions are welcome! If you have any improvements or new algorithm impleme
 
 ## 👤 Author
 
-**Your Name**
+**Abhinav SHukla**
 - [GitHub Profile](https://github.com/maxprogrammer007)
 - [LinkedIn](https://linkedin.com/in/maxprogrammer007)
 
